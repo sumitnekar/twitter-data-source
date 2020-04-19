@@ -5,7 +5,7 @@ version := "0.1"
 
 scalaVersion := "2.12.6"
 
-import LibraryVersions._
+import DependencyVersions._
 
 libraryDependencies ++= Seq(
   "org.apache.flink" % "flink-java" % FlinkVersion,
